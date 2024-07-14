@@ -14,6 +14,9 @@
      <remote name="cl"
      fetch="https://android.googlesource.com" />
      
+     <remove-project name="android_vendor_orion" />
+     <project path="vendor/lineage" name="android_vendor_orion" remote="me" revision="14.0" />
+  
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
      <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
