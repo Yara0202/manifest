@@ -14,7 +14,7 @@
      <remote name="cl"
      fetch="https://android.googlesource.com" />
      <remote name="los"
-     fetch="https://android.googlesource.com" />
+     fetch="https://github.com/LineageOS" />
        
      <remove-project name="crdroidandroid/android_system_vold" />
      <project path="system/vold" name="android_system_vold" remote="los" revision="lineage-21.0" />
