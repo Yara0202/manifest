@@ -19,7 +19,7 @@
      <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="orion-14" />
      <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="me" revision="13" />
      <!-- Micam -->
-     <project path="vendor/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="ivan" revision="13" />
+     <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="ivan" revision="13" />
      <project path="vendor/lineage-priv/keys" name="keys" remote="me" revision="14.0" />
  
 </manifest>
