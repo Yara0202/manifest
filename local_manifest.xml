@@ -13,18 +13,13 @@
      fetch="https://github.com/OrionOS-prjkt" />
      <remote name="cl"
      fetch="https://android.googlesource.com" />
-     <remote name="los"
-     fetch="https://github.com/LineageOS" />
        
-     <remove-project name="crdroidandroid/android_system_vold" />
-     <project path="system/vold" name="android_system_vold" remote="los" revision="lineage-21.0" />
-
      <!-- Trees -->
-     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14-beta" />
-     <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="14-oplus" />
+     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="orion-14" />
+     <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="orion-14" />
      <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="me" revision="13" />
      <!-- Micam -->
-     <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="mipa" revision="arrow-12.0-a3" />
+     <project path="vendor/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="ivan" revision="13" />
      <project path="vendor/lineage-priv/keys" name="keys" remote="me" revision="14.0" />
  
 </manifest>
