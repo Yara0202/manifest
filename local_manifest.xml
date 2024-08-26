@@ -20,7 +20,7 @@
      <project path="system/vold" name="android_system_vold" remote="los" revision="lineage-21.0" />
 
      <!-- Trees -->
-     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14-oplus" />
+     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14-beta" />
      <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="14-oplus" />
      <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="me" revision="13" />
      <!-- Micam -->
