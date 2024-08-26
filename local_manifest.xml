@@ -12,8 +12,15 @@
      <remote name="oos"
      fetch="https://github.com/OrionOS-prjkt" />
      <remote name="cl"
-     fetch="https://android.googlesource.com" />
-       
+     fetch="https://android.googlesource.com" />        
+     <remote name="los"
+     fetch="https://github.com/LineageOS" />
+   
+     <remove-project name="LineageOS/android_hardware_lineage_interfaces" />  
+     <remove-project name="crdroidandroid/android_system_vold" />  
+     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="me" revision="lineage-21.0"/>
+     <project path="system/vold" name="android_system_vold" groups="pdk" remote="los" revision="lineage-21.0" />
+
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="orion-14" />
      <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="orion-14" />
